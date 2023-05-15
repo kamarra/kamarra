@@ -28,8 +28,8 @@ public class TestServlet extends SlingAllMethodsServlet {
     @Override
     protected void doPost(SlingHttpServletRequest req, SlingHttpServletResponse res) throws ServletException, IOException {
         try {
-            logger.info("This is info log Jagadeesh");
-            logger.debug("This is debug log Jagadeesh");
+            logger.info("This is info log");
+            logger.debug("This is debug log");
             logger.error("this is error log");
             System.out.println("entered");
             ResourceResolver resourceResolver = req.getResourceResolver();
